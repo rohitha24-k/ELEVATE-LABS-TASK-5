@@ -26,7 +26,6 @@ Stores order transactions made by customers.
 - `Product`: Product name.
 - `Amount`: Total amount of the order.
 
----
 
 ##  Table Relationship
 
@@ -36,7 +35,6 @@ The `CustomerID` in the `Orders` table is a foreign key that references the `Cus
 - Each order is placed by one customer.
 - This establishes a **one-to-many** relationship.
 
----
 
 ##  JOIN Operations
 
@@ -63,7 +61,6 @@ The `CustomerID` in the `Orders` table is a foreign key that references the `Cus
 - Returns all customers and all orders.
 - Unmatched data from either side appears with `NULL` values.
 
----
 
 ##  Sample Data Notes
 
@@ -73,7 +70,6 @@ The `CustomerID` in the `Orders` table is a foreign key that references the `Cus
 
 Screenshots are included to illustrate these cases for each JOIN type.
 
----
 
 ##  Learning Goals
 
