@@ -9,7 +9,7 @@ Screenshots of the table data and JOIN query results have been included to visua
 
 ##  Tables Description
 
-### Customers Table
+### Customer Table
 
 Stores information about customers.
 
@@ -17,7 +17,7 @@ Stores information about customers.
 - `Name`: Name of the customer.
 - `City`: City of the customer.
 
-### Orders Table
+### Orderss Table
 
 Stores order transactions made by customers.
 
@@ -29,7 +29,7 @@ Stores order transactions made by customers.
 
 ##  Table Relationship
 
-The `CustomerID` in the `Orders` table is a foreign key that references the `CustomerID` in the `Customers` table.
+The `CustomerID` in the `Orderss` table is a foreign key that references the `CustomerID` in the `Customer` table.
 
 - One customer can have multiple orders.
 - Each order is placed by one customer.
